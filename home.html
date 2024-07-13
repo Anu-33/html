@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d1a8 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Me</h2>
+            <p>I am Anindita Devi, a passionate computer science graduate. I have honed my skills in HTML, CSS, Python, and Django.
+            My journey into the tech world has been fueled by a deep curiosity and a desire to create impactful digital solutions.
+            When I'm not coding or planning my next big venture, you can find me enjoying a good cup of tea, or exploring the outer world.
+            </p>
+        </section>
+
+        <section id="skills" class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git, Github</li>
+            </ul>
+        </section>
+        <section id="project" class="content">
+            <h2>Project</h2>
+            <h4>An E-Commerce Website</h4>
+            <p>Working on this project for a few weeks. I'm using here Python, Django, HTML and CSS.</p>
+            <h4>An Automated Desktop Organizer</h4>
+            <p>It is an automated project using Python. It organize different files in different places in desktop.</p>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <p>If you have any questions or would like to see more of my work, please contact me at:</p>
+            <p>Email: aninditadevi337@gmail.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Everything about me &copy; 2024</p>
+    </footer>
+</body>
+</html>
